@@ -2,7 +2,7 @@
 ## Why?
 I have moved away from putty, or mtputty in favor for using native ssh since its available in modern windows.  I found myself always connecting to the same handful of servers and found this to be convenient.
 
-On its own, I do not find it very helpful, however when combined with Windows Terminal its great because I can set a Windows Terminal Profile to launch the script automatically and just dump me into the menu.
+On its own, the powershell script doesn't add much value, but when combined with Windows Terminal its great because I can set a Windows Terminal Profile to launch the script automatically and just dump me into the menu.
 
 ## RSA Keys
 This script is most convenient if you use RSA Keys to authenticate, but this does take some additional effort because you need to make sure you have an RSA key pair, and make sure your public key is in the "authorized_keys" file on the destination system.  If the destination system is windows you may need to add it to the system administration profile, rather than the target user profile.
