@@ -1,0 +1,14 @@
+Below is an example of the text you can add to a profile in your Windows Terminal Settings.Json
+- Go to settings in terminal, on the left will be profiles.
+- Click "add a new profile" to generate the profile slot and guid in the json file.
+- Now click "Open JSON file" and find the new profile you created.
+
+Now edit that profile to include the following information:
+
+{
+  "hidden": false,
+  "icon": "PATH\\TO\\YOUR\\CUSTOM\\ICONFILE.ico",
+  "name": "SSH Launcher",
+  "startingDirectory": "PATH\\TO\\THE\\DIRECTORY\\WITH\\THE\\LAUNCHER",
+  "commandline": "powershell.exe -NoExit -ExecutionPolicy Bypass -File PATH\\TO\\launcher.ps1",
+}
